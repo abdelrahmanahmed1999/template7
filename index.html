@@ -91,7 +91,6 @@
                 <i class="fa fa-pinterest fa-3x fa-fw"></i>
                 <i class="fa fa-instagram fa-3x fa-fw"></i>
                 <i class="fa fa-stumbleupon fa-3x fa-fw"></i>
-                <i class="fa fa-rss fa-3x fa-fw"></i>
             </div>
         </div>
     </div>
@@ -104,14 +103,14 @@
 <section id="tab" class="tab">
     <div class="container">
        <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-6">
             <ul class="list-unstyled text-center upper-case">
                 <li class="selected" data-class=".tab-one">tab1</li>
                 <li data-class=".tab-two">tab2</li>
                 <li data-class=".tab-three">tab3</li>
             </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-6">
             <div class="tab-content"><!--start tab content-->
                 <div class="tab-one-content"> 
                     <h3>Tab Number One</h3>
@@ -151,26 +150,30 @@
                 <div class="list-info">
                     <h3 class="afterelement">Sub List Section</h3>
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-                    <div class="list-content"><!--start list content-->
-                        <div class="list-icon pull-left">
-                            <i class="fa fa-cloud-download fa-lg listprop"></i>
+                    <div class="row">
+                        <div class="list-content col-md-12 col-xs-6"><!--start list content-->
+                            <div class="row">
+                                <div class="list-icon col-md-2">
+                                    <i class="fa fa-cloud-download fa-lg listprop"></i>
+                                </div>
+                                <div class="list-know col-md-4">
+                                    <h5>Title</h5>
+                                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet</p>
+                                </div>
+                            </div>
+                        </div><!--end list content-->
+                        <div class="list-content col-md-12 col-xs-6"><!--start list content-->
+                            <div class="row">
+                                <div class="list-icon col-md-2">
+                                    <i class="fa fa-archive fa-lg listprop"></i>
+                                </div>
+                                <div class="list-know col-md-4">
+                                    <h5>Archive</h5>
+                                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet</p>
+                                </div>
+                            </div><!--end list content-->
                         </div>
-                        <div class="list-know pull-left">
-                            <h5>Title</h5>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet</p>
-                        </div>
-                    </div><!--end list content-->
-                    <div class="clearfix"></div>
-                    <div class="list-content"><!--start list content-->
-                        <div class="list-icon pull-left">
-                            <i class="fa fa-cloud-download fa-lg listprop"></i>
-                        </div>
-                        <div class="list-know pull-left">
-                            <h5>Title</h5>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet</p>
-                        </div>
-                    </div><!--end list content-->
-                    <div class="clearfix"></div>
+                    </div>
                 </div>   
             </div>
         </div>
@@ -206,24 +209,31 @@
         <h2 class="h1 upper-case afterelementcenter">why this is awesome</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3 col-xs-6">
                 <div class="awesome-info">
                     <i class="fa fa-lightbulb-o fa-3x listprop"></i>
                     <h3>Throughtful Design</h3>
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                 </div>   
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3 col-xs-6">
                 <div class="awesome-info">
                     <i class="fa fa-keyboard-o fa-3x listprop"></i>
                     <h3>Well Crafted</h3>
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                 </div>   
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3 col-xs-6">
                 <div class="awesome-info">
                     <i class="fa fa-flash fa-3x listprop"></i>
                     <h3>Easy To Customize</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                </div>   
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="awesome-info">
+                    <i class="fa fa-users fa-3x listprop"></i>
+                    <h3>Collaporated</h3>
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                 </div>   
             </div>
@@ -333,7 +343,7 @@
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                 <div class="media">
                     <div class="media-left">
-                         <img class="media-object img-thumbnail img-circle" src="images/avatar.png" alt="">
+                         <img class="media-object img-thumbnail img-circle" src="images/avatar.png" alt="" width="80px" height="80px">
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Jeremy H.</h4>
@@ -345,7 +355,7 @@
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                 <div class="media">
                     <div class="media-left">
-                         <img class="media-object img-thumbnail img-circle" src="images/avatar.png" alt="">
+                         <img class="media-object img-thumbnail img-circle" src="images/kevin.png" alt="" width="80px" height="80px">
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Jeremy H.</h4>
@@ -357,7 +367,7 @@
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                 <div class="media">
                     <div class="media-left">
-                         <img class="media-object img-thumbnail img-circle" src="images/avatar.png" alt="">
+                         <img class="media-object img-thumbnail img-circle" src="images/client.png" alt="" width="80px" height="80px">
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Jeremy H.</h4>

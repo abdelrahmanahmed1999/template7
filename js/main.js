@@ -3,6 +3,14 @@
 $(document).ready(function () {
     "user strict"
 
+
+
+    //trigger niceScroll
+    $('html').niceScroll({
+        cursorcolor:"#ff4008",
+        cursorborder: '1px solid #ff4008',    
+    });
+
     $(window).scroll(function () {
         var nav = $('.navbar');
         $(window).scrollTop() >= nav.height() ? nav.addClass('scrolled') :  nav.removeClass('scrolled');
